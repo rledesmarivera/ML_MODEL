@@ -1,4 +1,4 @@
-# Descomposición de una serie de tiempo 
+# Passos a seguir para el análisis del gasto e ingreso del gobierno.
 
 options(scipen = 999)
 
@@ -9,7 +9,7 @@ options(scipen = 999)
 install.packages('TTR')
 library('TTR')
 
-# Trabajamos con IGAE
+# Trabajamos con series de gastos e ingresos del gobierno entre 1993 y 2023
 
 gasto_t <- ts(seriest$GASTO,
              start = c(1993,1), #FECHA DE INICIO 
